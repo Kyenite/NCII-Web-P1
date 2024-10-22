@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website 1</title>
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+
+    <script src="./bootstrap/js/bootstrap.min.js" defer></script>
+</head>
+<body style="height: 100vh; width: 100vw; overflow-x: hidden;">
+    <header class="navbar navbar-expand-lg position-absolute w-100 d-flex justify-content-between bg-body-tertiary p-3" style="background-color: brown;">
+        <h1 class="navbar-brand h-auto">Logo</h1>
+        <div>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarDiv" aria-expanded="false" aria-label="Toggle bavigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        </div>
+        <div class="collapse navbar-collapse justify-content-end text-center" id="navbarDiv">
+            <div class="d-block d-lg-flex justify-content-end align-items-center gap-2">
+                <a class="nav-link m-2 m-lg-0" href="#home">Home</a>
+                <a class="nav-link m-2 m-lg-0" href="#about">About Us</a>
+                <a class="nav-link m-auto" href="#">
+                    <input class="btn btn-primary" type="button" value="Login">
+                    <input class="btn btn-secondary" type="button" value="Sign Up">
+                </a>
+            </div>
+        </div>
+    </header>
+    <main style="height: auto; width: 100%; overflow: hidden; padding-top: 60px;">
+        <!-- Sectiona 1 -->
+        <section class="w-100 text-center" style="display: flex; justify-content: center; min-height: 100px; height: auto; max-height: 200px; overflow: hidden;">
+            <img class="img-fluid w-100" src="featured.jpg" alt="Featured Image">
+        </section>
+        <!-- Section 2 -->
+        <section class="d-block d-lg-flex">
+            <article class="p-2" style="background-color: antiquewhite;">
+                <h3>Update 1</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam quaerat, cupiditate laudantium voluptatibus, iure ducimus voluptate placeat vitae odio veniam magni quibusdam, eligendi deleniti cumque voluptas? Soluta doloremque ratione magni.</p>
+            </article>
+            <article class="p-2" style="background-color: aquamarine;">
+                <h3>Update 2</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus ea, rem eaque rerum blanditiis hic non maxime ex? Possimus quos expedita cupiditate, vel saepe animi consectetur nesciunt sapiente aspernatur quia?</p>
+            </article>
+            <article class="p-2" style="background-color: rgb(170, 111, 224);">
+                <h3>Update 3</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores sunt ad incidunt repudiandae. Hic atque eos aliquid facilis blanditiis odit at sed magni natus accusamus? Quos dolores dicta tenetur aspernatur.</p>
+            </article>
+        </section>
+    </main>
+    <footer class="text-center p-2" style="background-color: rgb(119, 119, 182);">
+        <h5>Site Info</h5>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis pariatur laboriosam aut atque vitae dicta officia? Beatae nulla doloremque laudantium aspernatur ipsum aliquid quam debitis, voluptatum expedita reprehenderit, modi maiores!</p>
+    </footer>
+</body>
+</html>
